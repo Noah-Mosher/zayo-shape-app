@@ -10,7 +10,7 @@ const SquareCalc = () => {
     const[shapeModalVisible, setshapeModalVisible] = useState(false)
 
     const onFinish = (values) => {
-        const areaCalced = 4 * +values.length 
+        const areaCalced = 2 * +values.length 
         const formattedArea = areaCalced.toFixed(3)
         setArea(formattedArea)
         setLength(+values.length)
