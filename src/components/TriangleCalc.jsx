@@ -42,7 +42,7 @@ const TriangleCalc = () => {
                 <Col>
                 <div className={styles.imageHolder}>
                 <svg width="150" height="150">
-                <polygon points="75,0 0,150 150,150" style={{fill:'#FE5F55'}} class="triangle" />
+                <polygon points="75,0 0,150 150,150" style={{fill:'#FE5F55'}} className="triangle" />
                 <line x1="75" y1="150" x2="75" y2="3" style={{stroke: 'black', strokeWidth: 3}}/>
                 <line x1="2" y1="149" x2="148" y2="149" style={{stroke: 'black', strokeWidth: 5}}/>
                 </svg>

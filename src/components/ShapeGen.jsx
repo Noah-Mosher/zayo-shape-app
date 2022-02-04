@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import styles from '../styles/ShapeGen.module.scss'
 import { Card } from 'antd';
@@ -5,6 +6,7 @@ import TriangleCalc from './TriangleCalc';
 import SquareCalc from './SquareCalc';
 import RectangleCalc from './RectangleCalc';
 import CircleCalc from './CircleCalc';
+
 
 const ShapeTypeMap = new Map([
     ['square', SquareCalc],
@@ -21,6 +23,7 @@ const ShapeGen = ({shape}) => {
       <Child />
       </Card>
   </div>;
-};
+}
+
 
 export default ShapeGen;
