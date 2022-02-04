@@ -34,7 +34,7 @@ const CircleCalc = () => {
                 <Col>
                 <svg width="140" height="140">
                     <circle cx="70" cy="70" r="70" style={{fill:'#FE5F55'}}/>
-                    <line x1="0" y1="70" x2="140" y2="70" style={{stroke: 'black', strokeWidth: 3}}/>
+                    <line x1="0" y1="70" x2="70" y2="70" style={{stroke: 'black', strokeWidth: 3}}/>
                 </svg>
                 </Col>
                 <Col>
