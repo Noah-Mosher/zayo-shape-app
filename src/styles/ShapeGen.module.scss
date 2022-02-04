@@ -1,0 +1,15 @@
+.CardContainer {
+    border: transparent;
+    border-radius: 3rem;
+    
+    :global(.ant-card) {
+        border-radius: 3rem;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    :global(.ant-card-body) {
+        background-color: #eef5db;
+        border: transparent;
+        border-radius: 3rem;
+    }
+}

@@ -1,0 +1,66 @@
+.RCContainer {
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    :global(.ant-typography) {
+        color: #4f6367;
+    }
+
+    :global(.ant-form) {
+        width: 15rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+}
+
+.FormRow {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    :global(.ant-form-item){
+        width: 50%;
+        margin-bottom: 0;
+        margin-left: 1rem;
+    }
+    :global(.ant-btn) {
+        margin-top: 2rem;
+    }
+}
+.ResultContainer{
+    text-align: center;
+    width: 100%;
+}
+.ModalContents {
+    height: 25rem;
+    display: flex;
+    width: max-content;
+    :global(.ant-row) {
+        align-items: center;
+        text-align: center;
+    }
+    :global(.ant-typography){
+        padding: 1rem;
+    }
+
+}
+
+.Modal {
+    position: relative;
+    top: 20%;
+    :global(.ant-modal-body) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    :global(.ant-modal-content) {
+        border-radius: 2rem;
+        background-color: #EEF5DB !important;
+    }
+}
