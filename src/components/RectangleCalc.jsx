@@ -41,9 +41,9 @@ const RectangleCalc = () => {
                     <Typography.Text>Width: {width}</Typography.Text></Col>
                 <Col>
                 <div className={styles.imageHolder}>
-                <svg width="200" height="100">
-                    <rect width="200" height="100" style={{fill:'#FE5F55', strokeWidth: 3,  stroke: "#FE5F55"}} />
-                    <line x1="0" y1="100" x2="200" y2="100" style={{stroke: 'black', strokeWidth: 5}}/>
+                <svg width="175" height="100">
+                    <rect width="175" height="100" style={{fill:'#FE5F55', strokeWidth: 3,  stroke: "#FE5F55"}} />
+                    <line x1="0" y1="100" x2="175" y2="100" style={{stroke: 'black', strokeWidth: 5}}/>
                     <line x1="0" y1="0" x2="0" y2="100" style={{stroke: 'black', strokeWidth: 5}}/>
                 </svg>
                 </div>
